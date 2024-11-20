@@ -7,9 +7,9 @@ import FooterLinks from "./FooterLinks";
 
 const Footer = () => {
   return (
-    <footer className="footerBg min-h-[55vh] px-24 py-8">
-      <div className="flex w-full">
-        <aside className="w-1/3 flex gap-4 flex-col">
+    <footer className="footerBg min-h-[55vh] md:px-24 px-8 py-8">
+      <div className="flex md:flex-row flex-col w-full ">
+        <aside className="md:w-1/3 flex flex-wrap gap-4 items-center flex-col">
           <figure className="flex gap-4 items-center">
             <img src={"/images/FitnEarnLogo.png"} alt="Logo" />
             <h1 className="text-4xl font-bold bg-gradient-to-r from-[#DB2777] to-[#F97316] bg-clip-text text-transparent">

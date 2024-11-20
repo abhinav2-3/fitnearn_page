@@ -14,7 +14,7 @@ const StepSection = () => {
         How It Works ?
       </m.h1>
       <div className="relative flex md:flex-row flex-col justify-center">
-        <hr className="w-[80%] absolute top-24 bg-red-600" />
+        <hr className="w-[90%] md:[80%] absolute top-24 bg-red-600" />
         <div className="w-full flex justify-between">
           {StepsData?.map((data, i) => {
             return (

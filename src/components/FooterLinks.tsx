@@ -1,7 +1,7 @@
 const FooterLinks = () => {
   return (
-    <>
-      <aside className="w-1/5 flex flex-col p-10 gap-3">
+    <div className="flex flex-wrap w-full md:w-2/5">
+      <aside className="w-1/2 flex flex-col p-10 gap-3">
         <h1 className="font-bold">Useful Links</h1>
         <a href={"#"} className="text-secondary_white">
           Home
@@ -16,7 +16,7 @@ const FooterLinks = () => {
           Sign Up Form
         </a>
       </aside>
-      <aside className="w-1/5 flex flex-col p-10 gap-3">
+      <aside className="w-1/2 flex flex-col p-10 gap-3">
         <h1 className="font-bold">Policies</h1>
         <a href={"#"} className="text-secondary_white">
           About Us
@@ -31,7 +31,7 @@ const FooterLinks = () => {
           Data Deletion
         </a>
       </aside>
-    </>
+    </div>
   );
 };
 
